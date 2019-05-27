@@ -1,0 +1,147 @@
+#menu{
+	background: #1C1C1C;
+	width: 100%;
+	height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid #696969;
+}
+a {
+	 text-decoration: none;
+}
+.mbut{
+	color: #F2FD3F;
+	height: 45px;
+	font-family: Georgia;
+	font-size: 18px;
+	padding-top: 25px;
+	padding-right: 7px;
+	padding-left: 7px; 
+	 transition-property: background, color;
+     transition-duration: 0.5s;
+     transition-delay: 0s;
+     transition-timing-function: linear;
+	}
+.mbut:hover{
+	
+	
+	color: #1C1C1C;
+	background: #F2FD3F;
+	
+
+}
+
+#button_1{left:100px;}
+#button_2{left:260px;}
+#button_3{left:329px;}
+#button_4{left:475px;}
+#button_5{left:657px;}
+#button_6{left:870px;}
+
+#titul{
+	position: absolute;
+	background: #363636;
+	width: 100%;
+	height: 200px;
+	top:71px;
+	left: 0;
+	border-bottom: 5px solid #F2FD3F;
+}
+#content_1{
+	background: white;
+	margin-top: 334px;
+	width: 67%;
+	margin-left: 16%;
+	margin-right:15%;
+	
+    }
+.text_2{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+    font-family: Georgia;
+    color: #363636;
+
+}	
+#content_2{
+	background: white;
+	margin-top: 50px;
+	width: 67%;
+	margin-left: 16%;
+	margin-right:15%;
+	border: 1px solid #696969;
+	padding-bottom: 50px;
+	}
+
+.text_1{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	font-size: 18px;
+    font-family: Georgia;
+    color: #363636;
+}	
+
+.em{
+	position: absolute;
+	width: 125px;
+	right: 200px;
+	top: 23px;
+	}
+.zag{
+    margin-top: 40px;
+	width: 350px;
+}
+
+h2{
+   margin-bottom: -45px;
+   color: #696969;
+   font-family: algerian;
+   }
+p{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	text-indent: 20px;
+	text-align: justify;
+}
+li{
+	margin-top: 8px;
+}
+#perev{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 16px;
+    font-family: arial;
+    color: #363636;
+}
+.dialog
+{
+ margin-top: 30px;
+   color: #CD5C5C;
+   font-family: arial;
+   font-size: 28px; 
+}
+.bea
+{
+	margin-left: 30px;
+	margin-top: 30px;
+   color: #1C1C1C;
+   font-family: Georgia;
+   font-size: 20px; 
+}
+.foto
+{
+	 margin-top: 30px;
+   color: #1C1C1C;
+   font-family: arial;
+   font-size: 28px; 
+
+}
+.ukr
+{
+	margin-top: 30px;
+}

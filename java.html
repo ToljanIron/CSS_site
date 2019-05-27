@@ -1,0 +1,111 @@
+﻿<html>
+<head>
+<title>landundleute</title>
+  <link rel="stylesheet" type="text/css" href="css/java.css">
+  <meta charset="UTF-8">
+</head>
+<body background="images/fon.jpeg">
+ <div id="menu">
+ <center>
+  <table><tr>
+    <td><a href="index.html"><div id="button_1" class="mbut">Deutschland kurz</div></a></td>
+    <td><a href="berlin.html"><div id="button_2" class="mbut">Berlin</div></a></td>
+    <td><a href="landundleute.html"><div id="button_3" class="mbut">Land und Leute</div></a></td>
+    <td><a href=""><div id="button_4" class="mbut">Sehenswürdigkeiten</div></a></td>
+    <td><a href="STAAT UND BUNDESLÄNDER.html"><div id="button_5" class="mbut">Staat und Bundesländer</div></a></td>
+    <td><a href=""><div id="button_6" class="mbut">Galerie</div></a></td>
+    </tr>  
+  </table></center>
+   <div id="titul">
+ <center><img src="images/zag.png" class="zag"></center>  
+ </div>
+ <div id="content_1" style="height: 1420px; width:70%;">
+<script type="text/javascript">
+ function check(){
+       var i=0;
+	   if(document.test.vopr1[1].checked)i++;
+	   if(document.test.vopr2[1].checked)i++;
+	   if(document.test.vopr3[0].checked)i++;
+	   if(document.test.vopr4[1].checked)i++;
+	    if(document.test.vopr5[1].checked)i++;
+	   if(document.test.vopr6[1].checked)i++;
+	    if(document.test.vopr7[1].checked)i++;
+	   if(document.test.vopr8[1].checked)i++;
+	    if(document.test.vopr9[0].checked)i++;
+	   if(document.test.vopr10[0].checked)i++;
+	   	   if(document.test.vopr11[0].checked)i++;
+	   if(document.test.vopr12[1].checked)i++;
+        alert("Ваша оцінка -"+i+" балів");  
+      }
+  
+ 
+</script>
+</head>
+
+<body onLoad="showtime()" >
+<p  id="t">
+
+</p>
+
+    <form name="test">
+  
+
+ <table id="maket">
+	<td> <b><p align="left">1)Die Verfassung Deutschlands bestimmt:</b></p><p>
+    <p ><input type="radio" name="vopr1">Konstitutionelle Monarchie<br></p>
+    <p ><input type="radio" name="vopr1">die Bundesrepublik Deutschland <br></p>
+	
+	<p ><b>2)Die Verfassungsorgane sind:</b></p><p>
+    
+   <p > <input type="radio" name="vopr2">der Bundesprasident<br></p>
+    <p ><input type="radio" name="vopr2">der Bundeskanzler<br></p>
+   	 <p >   <b> 3)Das Parlament besteht aus zwei  Kammern:</b></p><p>
+    <p ><input type="radio" name="vopr3">dem Bundestag und dem  Bundesrat<br></p>
+    <p ><input type="radio" name="vopr3">der Bundeversammlung und dem Bundesrat<br></p>   
+      <p ><b> 4)Der Bundestag ist vom Volk auf:</b></p><p>
+    <p ><input type="radio" name="vopr4")>funf Jahre frei gewahlt<br></p>
+    <p ><input type="radio" name="vopr4">vier Jahre frei  gewahlt </p>
+<p><b>  5)Der Bundestag hat:</b></p><p>
+    <p ><input type="radio" name="vopr5">682 Abgeordneten<br></p>
+    <p ><input type="radio" name="vopr5"> 672 Abgeordneten<br></p> 
+   
+    	<p ><b> 6)Deutschland besteht seit 1990 aus:</b></p><p>
+   <p > <input type="radio" name="vopr6">funfzehn Bundeslandern<br></p>
+   <p > <input type="radio" name="vopr6">sechzehn Bundeslandern<br> </p>
+
+  <p>  <b> 7)Die Bundeslander haben weitgehende  Autonomie, besonders:</b></p><p>
+  <p>  <input type="radio" name="vopr7">in der Industrie und Wirtschaft<br></p>
+  <p>  <input type="radio" name="vopr7"> in der Kulturpolitik und Bildung<br> </p>
+    <p>  <b>8)Die Parlamente der Bundeslander heissen:</b></p><p>
+   <p> <input type="radio" name="vopr8">Kantonen<br></p>
+   <p> <input type="radio" name="vopr8">Landtage </p>
+	<p> <b>9)Die Hauptstadt Deutschlands ist:</b><p></p>
+   <p> <input type="radio" name="vopr9">Berlin<br></p>
+   <p> <input type="radio" name="vopr9">Bonn<br></p> 
+   <p>	<b> 10)Die grossten Stadte Deutschlands sind:</b></p><p>
+    <p> <input type="radio" name="vopr10"> Berlin, Munchen, Hamburg, Koln<br></p>
+  <p>  <input type="radio" name="vopr10"> Berlin, Hamburg, Weimar, Wien<br> </p>
+ 
+   <p>   <b> 11)Das Parlament   Kammern:</b></p><p>
+    <p><input type="radio" name="vopr11">dem Bundestag und dem  Bundesrat<br></p>
+    <p><input type="radio" name="vopr11">der Bundeversammlung und dem Bundesrat<br></p>   
+      <p><b> 12)Der Bundestag ist vom Volk auf:</b></p><p>
+    <p><input type="radio" name="vopr12">funf Jahre frei gewahlt<br></p>
+    <p><input type="radio" name="vopr12">vier Jahre frei  gewahlt<br> </p>
+	</td>
+  </table>
+
+   
+   	
+<button  id="but" onclick="check()" style="width: 150px" >Überprüfen</button>
+ 
+
+   
+<button id="but" type="reset()" style="width: 150px">Abbrechen</button>   
+
+</form>
+
+</body>
+</div>
+</body>
+</html>
